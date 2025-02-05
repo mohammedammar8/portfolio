@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Left Section */
+.left {
+    width: 30%;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    color: #4C7B8B;
+}
+
+.left p {
+    font-size: 18px;
+}
+
+.intro-text {
+    color: #4C7B8B;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.socials a {
+    margin-right: 10px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Right Section */
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+#spabout {
+    font-size: 24px;
+    text-align: center;
+    color: #4C7B8B;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.prolist {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.prolist img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+}
+
+form input[type="submit"] {
+    background-color: #4C7B8B;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3A6C7A;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+}
